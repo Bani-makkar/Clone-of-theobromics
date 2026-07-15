@@ -1,0 +1,722 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+
+.upper{
+    width: 100%;
+    height: 40px;
+    padding: 10px 5px;
+    background-color: #FFFFFF;
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+    
+   font-family: "Inter";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    color: rgb(169, 128, 42);
+    text-transform: capitalize;
+    img{
+        border:1px solid rgb(169, 128, 42);
+
+    };
+    
+}
+.lower{
+    width: 100%;
+    height: 80px;
+    padding: 2px 0px;
+     display: flex;
+   justify-content: space-between;
+    background-color: #FFFFFF;
+    font-family: Inter, sans-serif;
+font-size: 13.5px;
+font-weight: 600;
+line-height: 20.25px;
+img{
+     border :1px solid rgb(169, 128, 42);
+
+};
+color: rgb(169, 128, 42);
+ align-items: center;
+ border:1px solid rgb(169, 128, 42);
+button{
+    height: 30px;
+    width: 100px ;
+     color:rgb(169, 128, 42);
+     background-color: #FFFFFF;
+     border-color:rgb(169, 128, 42) ;
+    border-radius: 50px;
+}
+
+
+ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    
+
+}
+ul>li{
+   list-style: none;
+}
+ul>li>a{
+    text-transform: uppercase;
+     text-decoration: none;
+        color:rgb(169, 128, 42);
+       
+        
+}
+ul>li>a:hover{ color: #BEDDE0;
+}
+}
+.box{
+    width: 100%;
+    margin: 100px 0px 0px;
+    padding: 0px;
+    
+}
+.inside_box{
+    width: 100%;
+    img{
+        width: 100%;
+        height: 90%;
+        object-fit: contain;
+        object-position: center;
+    }
+}
+.box1{
+   
+    background-color: #FFFFFF;
+   font-family: "Inter", sans-serif;
+font-size: 15px;
+font-weight: 500;
+line-height: 28px;
+color: rgb(83, 83, 83);
+   align-items: center;
+  text-align: center;
+ 
+}
+h1{
+    font-family: "Overlock";
+font-size: 35px;
+font-weight: 700;
+line-height: 40px;
+color: rgb(169, 128, 42);
+}
+main{
+    padding: 50px 50px;
+    justify-items: center;
+    position: relative;;
+    background-color:#FFFFFF;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    color: rgb(40, 41, 41);
+}
+
+.head1{
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+.head3{
+    position: absolute;
+    right: 200px;
+    top: 200px;
+}
+.head2{
+    position: absolute;
+    left: 180px;
+    bottom: 200px;
+}
+.head4{
+    position: absolute;
+    right: 200px;
+    bottom: 200px;
+}
+h3{
+    font-family: "Overlock";
+font-size: 22px;
+font-weight: 600;
+line-height: 33px;
+color: rgb(169, 128, 42);
+}
+main>button{
+    margin-bottom: 100px;
+    position: relative;
+    top: 50px;
+    border-color: rgb(169, 128, 42);
+    font-family: "Overlock";
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+color: rgb(169, 128, 42);
+    height: 50px;
+    border-radius: 40px;
+    width: 150px;
+ background-color: #BEDDE0;
+}
+.product{
+    background-color: #FBECEA;
+    img{
+        margin-top: 20px;
+        margin-bottom:  40px;
+    }
+}
+.box3{
+display: flex;
+gap: 30px;
+height: 400px;
+background-color: #FFFFFF;
+font-family: Overlock;
+font-size: 22px;
+font-weight: 700;
+line-height: 26.4px;
+color: rgb(169, 128, 42);
+position: relative;
+
+img{
+    margin: 20px;
+}
+}
+.box4
+{
+    padding: 50px;
+    display: flex;
+    img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+}
+.head6{
+    
+    text-align: left;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    position:relative;
+    right: 100px;
+    top: 50px;
+    width: 480px;
+}
+.image5{
+    position: relative;
+    left: 150px;
+}
+p{
+     font-family: "Inter", sans-serif;
+    /* text-align: center; */
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    color: rgb(40, 41, 41);
+}
+.head6>button{
+    margin-bottom: 100px;
+    position: relative;
+    top: 50px;
+    border-color: rgb(169, 128, 42);
+    font-family: "Overlock";
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+color: rgb(169, 128, 42);
+    height: 50px;
+    border-radius: 40px;
+    width: 150px;
+ background-color: #BEDDE0;
+}
+.box5{
+    background-color: #FEF3E2;
+    display: flex;
+    padding: 100px;
+    }
+.head7{
+    width: 450px;
+    position: relative;
+    top: 170px;
+    left: 70px;
+    /* line-height: 0; */
+    img{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+    /* background-color: pink; */
+}
+.head7>button{
+   
+    position: relative;
+    top: 30px;
+    
+    border-color: rgb(169, 128, 42);
+    font-family: "Overlock";
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+color: rgb(169, 128, 42);
+    height: 50px;
+    border-radius: 40px;
+    width: 150px;
+ background-color: #BEDDE0;
+}
+.box6{
+background-color: #EBF6F4;}
+.head8{
+    text-align: center;
+    padding-top: 50px;
+}
+.head9{
+    margin: 50px 150px 0px;
+    padding: 20px 30px 40px;
+    /* margin: 20px 30px 40px; */
+    background-color: #fff;
+    /* display:flex; */
+}
+.boximg{
+    display: flex;
+    gap: 30px;
+    font-family: "Overlock";
+font-size: 22px;
+font-weight: 700;
+line-height: 26.4px;
+color: rgb(169, 128, 42);
+text-align: center; margin-bottom: 30px;
+}
+
+.boximg2{
+    display: flex;
+    gap: 30px;
+    font-family: "Overlock";
+font-size: 22px;
+font-weight: 700;
+line-height: 26.4px;
+color: rgb(169, 128, 42);
+text-align: center;
+}
+.imagesall{
+   width: 265px !important; 
+   height:265px !important ;
+}
+.image7:hover{
+    background-image: url(https://theobroma.in/cdn/shop/files/FreshCreamPineappleCakehalfkg02_cca038c8-bb78-4bc3-b62c-26cde91670ad_400x400.jpg?v=1711124785);
+    height: 265px;
+background-size: cover;
+    img{width: 0px;}
+}
+.head10{
+    position: absolute;
+    margin-top: 50px;
+    left: 430px;
+    /* justify-content: center; */
+    text-align: center;
+    img{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    button{
+        margin-top: 10px;
+        color:rgb(169, 128, 42);
+     background-color: #F8BEB6;
+     border-color:rgb(169, 128, 42) ;
+     font-family: "Overlock";
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+    height: 40px;
+    border-radius: 40px;
+    width: 150px;
+
+    }
+}
+
+/* ============================================================
+   1. LARGE SCREENS / LAPTOPS – max-width: 1200px
+   ============================================================ */
+@media (max-width: 1200px) {
+
+  .lower {
+    padding: 2px 20px;
+  }
+
+  ul {
+    gap: 25px;
+  }
+
+  .box2 {
+    height: 550px;
+  }
+
+  .head1 { left: 100px; top: 150px; }
+  .head3 { right: 100px; top: 150px; }
+  .head2 { left: 100px; bottom: 150px; }
+  .head4 { right: 100px; bottom: 150px; }
+
+  .box3 img {
+    height: 250px;
+  }
+
+  .head6 {
+    width: 400px;
+    right: 40px;
+  }
+  .image5 {
+    left: 60px;
+  }
+  .image5 img {
+    width: 400px;
+  }
+
+  .box5 {
+    padding: 60px;
+  }
+  .image6 img {
+    width: 500px;
+  }
+  .head7 {
+    width: 380px;
+    left: 30px;
+    top: 100px;
+  }
+
+  .head9 {
+    margin: 50px 60px 0px;
+  }
+
+  .head10 {
+    left: 320px;
+  }
+}
+
+/* ============================================================
+   2. TABLETS (LANDSCAPE) – max-width: 992px
+   ============================================================ */
+@media (max-width: 992px) {
+
+  .lower img {
+    height: 60px;
+    width: auto;
+  }
+
+  ul {
+    gap: 15px;
+    font-size: 12px;
+  }
+
+  .box2 {
+    position: relative;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 20px;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .head1, .head2, .head3, .head4 {
+    position: static;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+  }
+
+  .box3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    height: auto;
+    justify-items: center;
+  }
+  .box3 img {
+    height: 220px;
+    margin: 10px;
+  }
+
+  .box4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+  }
+  .head6 {
+    width: 100%;
+    right: 0;
+    top: 0;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .image5 {
+    position: static;
+    margin-top: 20px;
+  }
+  .image5 img {
+    width: 80%;
+    max-width: 450px;
+  }
+
+  .box5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 50px 30px;
+    text-align: center;
+    justify-items: center;
+  }
+  .image6 img {
+    width: 100%;
+    max-width: 500px;
+  }
+  .head7 {
+    position: static;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+  }
+
+  .head9 {
+    margin: 30px 20px;
+  }
+  .boximg, .boximg2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+
+  .head10 {
+    position: static;
+    margin-top: 0;
+    padding: 40px 20px;
+  }
+  .box7 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .image15 {
+    width: 100%;
+  }
+  .image15 img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* ============================================================
+   3. TABLETS (PORTRAIT) / SMALL LAPTOPS – max-width: 768px
+   ============================================================ */
+@media (max-width: 768px) {
+
+  .upper {
+    font-size: 11px;
+    flex-wrap: wrap;
+    text-align: center;
+    height: auto;
+    padding: 8px 10px;
+  }
+
+  .lower {
+    padding: 5px 15px;
+    height: 65px;
+  }
+  .lower img {
+    height: 45px;
+  }
+
+  ul {
+    display: none; /* replace with a hamburger menu if you add JS toggle */
+  }
+
+  button span {
+    display: none;
+  }
+  button {
+    font-size: 20px;
+    justify-content: center;
+    padding: 8px;
+    margin: 0;
+    border-width: 0;
+    background: transparent;
+  }
+  .b2 {
+    display: none;
+  }
+
+  .box {
+    margin-top: 105px;
+  }
+  .inside_box img {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .box1 {
+    height: auto;
+    padding: 30px 15px;
+  }
+  .box1 h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  main {
+    padding: 30px 15px;
+  }
+
+  .box2 {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .box3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: auto;
+    justify-items: center;
+  }
+  .box3 img {
+    height: 220px;
+  }
+
+  .imagesall {
+    width: 220px !important;
+    height: 220px !important;
+  }
+
+  .head9 img {
+    width: 200px;
+  }
+}
+
+/* ============================================================
+   4. MOBILE (LANDSCAPE / LARGE PHONES) – max-width: 576px
+   ============================================================ */
+@media (max-width: 576px) {
+
+  h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .box {
+    margin-top: 95px;
+  }
+  .inside_box img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .box1 {
+    font-size: 13px;
+    line-height: 21px;
+  }
+
+  main > button {
+    width: 130px;
+    height: 44px;
+    font-size: 14px;
+  }
+
+  .box3 img {
+    height: 180px;
+  }
+  .imagesall {
+    width: 180px !important;
+    height: 180px !important;
+  }
+
+  .head6 h1,
+  .head7 h1 {
+    font-size: 22px;
+  }
+
+  .head9 {
+    margin: 20px 10px;
+    padding: 15px;
+  }
+  .boximg, .boximg2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 20px;
+  }
+  .imagesall {
+    width: 90% !important;
+    height: auto !important;
+    max-width: 280px;
+  }
+  .imagesall img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .head10 h1 {
+    font-size: 22px;
+  }
+}
+
+/* ============================================================
+   5. SMALL PHONES – max-width: 400px
+   ============================================================ */
+@media (max-width: 400px) {
+
+  .upper {
+    font-size: 10px;
+    padding: 6px 4px;
+  }
+
+  .lower {
+    height: 55px;
+  }
+  .lower img {
+    height: 38px;
+  }
+
+  .box1 {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .box3 img {
+    height: 150px;
+  }
+  .imagesall {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .image15 img {
+    height: auto;
+    width: 100%;
+  }
+
+  .head10 button,
+  .head6 button,
+  .head7 button {
+    width: 120px;
+    font-size: 13px;
+    height: 42px;
+  }
+
+  main > button {
+    width: 110px;
+    height: 40px;
+    font-size: 13px;
+  }
+}
